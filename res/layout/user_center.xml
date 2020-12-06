@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffaf60"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffaf60"
+            android:gravity="center"
+            android:text="个人中心"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="center"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"             
+                android:text="用户名"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:text="@string/phone_number"
+                android:textSize="15sp" />
+
+            <TextView
+              
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="欢迎您"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+           
+            <ScrollView 
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical" >
+                 <Button
+                  android:id="@+id/yu_e_bt"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                 android:background="@drawable/regist_bg_circle"
+                 android:focusable="true"
+                 android:text="我的余额"
+                 android:textSize="20sp" />
+                 
+				 <Button
+                    android:id="@+id/order_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/regist_bg_circle"
+                    android:focusable="true"
+                    android:text="我的订单 "
+                    android:textSize="20sp" />
+				 
+                <Button
+                    android:id="@+id/ting_che_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/regist_bg_circle"
+                    android:focusable="true"
+                    android:text="停车记录 "
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/setting_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/regist_bg_circle"
+                    android:focusable="true"
+                    android:text="系统设置  "
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/cao_zuo_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/regist_bg_circle"
+                    android:focusable="true"
+                    android:text="操作指南 "
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/about_us_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/regist_bg_circle"
+                    android:focusable="true"
+                    android:text="关于我们 "
+                    android:textSize="20sp" />
+                   </LinearLayout>
+                </ScrollView>  
+   
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+  
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="退出 "
+        android:background="#ffaf60"
+        android:textSize="20sp"
+        android:textColor="#ffffff" />
+    
+     
+   </LinearLayout>
+
+</LinearLayout>

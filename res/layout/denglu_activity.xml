@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/regist_bg_circle"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp"
+         android:gravity="center" >
+
+             <Button
+                 android:id="@+id/user"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:background="@drawable/user" />
+             
+      </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="账号"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/zhanghao_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="手机号"
+                android:maxLength="11" 
+                android:text="@string/phone_number"             
+                android:inputType="number"
+                android:textSize="15sp" />
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="密码"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/mima_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="默认密码  888888"
+                android:inputType="textPassword"
+                android:textSize="15sp" />
+        </LinearLayout>
+        
+      
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center">
+        <Button
+            android:id="@+id/forget_bt"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/regist_bg_circle"
+            android:text="忘记密码"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center" 
+            android:textColor="#272727"
+            android:textSize="20sp" />
+        
+ 
+
+        <Button 
+            android:id="@+id/denglu_bt"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+             android:background="@drawable/regist_bg_circle"
+            android:text="登  录"
+              android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:textColor="#272727"
+            android:layout_gravity="center" />
+      </LinearLayout>
+      
+       
+        
+      
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+            
+             <Button
+                 android:id="@+id/zhuce_bt"
+                 android:layout_width="160dp"
+                 android:layout_height="wrap_content"
+                
+                 android:background="@null"
+                 android:text="新 用 户 注 册"
+                 android:textSize="20sp"
+                 android:layout_gravity="center"
+                 android:textColor="#ff8000" />
+             
+      </LinearLayout>
+        
+    </LinearLayout>  
+
+</LinearLayout>

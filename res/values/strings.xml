@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IParkDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_number">18638921094</string>
+    <string name="park_start">11:20</string>
+    <string name="park_end">13:20</string>
+</resources>

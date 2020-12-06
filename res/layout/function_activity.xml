@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#ffaf60"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+             android:orientation="vertical" >
+            <Button 
+                android:id="@+id/user_center_bt"
+                android:layout_width="30dp"
+                android:layout_height="30dp"           
+                android:background="@drawable/user_center"/>
+              <TextView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="个人中心"
+                  android:layout_gravity="center"/>
+          </LinearLayout>
+          
+           
+          <TextView 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="56dp"
+              android:text="首     页"
+              android:textSize="25sp"
+              android:textColor="#ffffff"
+              android:layout_gravity="center"/>
+      
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/nearpark_bt"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape1"
+            android:text="附近停车场"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/pay_bt"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape1"
+            android:text="费用信息"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+         </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        
+        android:orientation="horizontal">
+             <Button
+            android:id="@+id/topark_bt"
+            android:layout_width="130dp"
+            android:layout_height="130dp"     
+            android:background="@drawable/shape1" 
+            android:text="我要停车"
+     
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/getcar_bt"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/shape1" 
+            android:text="我要取车"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
